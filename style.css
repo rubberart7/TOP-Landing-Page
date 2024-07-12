@@ -10,21 +10,32 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-wrap: wrap;
 }
 
 .content-1 {
     background-color: var(--dark-blue-bg);
     color: var(--header-link-text);
-    padding: 20px;
+    padding: 50px;
 
 }
 
 .header {
     display: flex;
     justify-content: center;
-    gap: 500px;
+    flex-wrap: wrap;
+    gap: 534px;
     color: var(--header-link-text);
+    margin-top: 0;
     margin-bottom: 150px;
+    margin-left: 85px;
+    margin-right: 5px;
 }
 
 .logo {
@@ -59,21 +70,27 @@ a {
 
 .bottom-portion-1 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    flex: 1;
-    gap: 40px;
+    
+    gap: 30px;
+    margin-left: 110px;
+    margin-right: 30px;
     
 }
-
 
 .awesome {
     font-size: 48px;
     color: var(--hero-main-text);
     font-weight: bolder; 
 }
+
+.subtext {
+    font-size: 18px;
+}
 button {
     outline: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     cursor: pointer;
     
 }
@@ -84,7 +101,16 @@ button {
     border-radius: 10px;
     border-color: var(--button-color);
 }
-  
+
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
 
 .footer {
     display: flex;
@@ -96,3 +122,29 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.images img {
+    width: 100px;
+    height: 100px;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: var(--quote-color);
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.image-and-text {
+    display: flex;
+    justify-content: center;
+}
+

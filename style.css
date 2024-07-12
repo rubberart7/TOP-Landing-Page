@@ -55,18 +55,6 @@ a {
     color: var(--header-link-text);
 }
 
-.content-3 {
-    background-color: var(--quote-section-bg);
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-}
-
-.quote {
-    font: light;
-    font-style: italic;
-    color: var(--quote-color);
-}
 
 .bottom-portion-1 {
     display: flex;
@@ -92,6 +80,7 @@ button {
     outline: none;
     padding: 10px 20px;
     cursor: pointer;
+    border: solid;
     
 }
 .section-1-signup {
@@ -123,15 +112,21 @@ button {
     align-items: center;
 }
 
+.images-container {
+    text-align: center;
+    width: 150px;
+    margin: 0 30px;
+}
 img {
     width: 300px;
     height: auto;
 }
 
-.images img {
+.images-container img {
     width: 100px;
     height: 100px;
 }
+
 
 .random {
     display: flex;
@@ -147,4 +142,63 @@ img {
     display: flex;
     justify-content: center;
 }
+
+.content-3 {
+    background-color: var(--quote-section-bg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 100px; /* Adjust the padding as needed for more space around the section */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    font-size: 36px; /* Increase the font size */
+    font-style: italic;
+    color: var(--quote-color);
+    
+    text-align: center;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bolder;
+    color: var(--dark-blue-bg);
+    margin-top: 20px;
+    margin-left: 790px;
+
+}
+
+.content-4 {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color: var(--button-color);
+    padding: 100px; /* Adjust padding as needed */
+    margin: 50px 20px; /* Adjust margin as needed */
+    border-radius: 20px;
+}
+
+.section-4-signup {
+    background-color: #3882F6;
+    color: var(--header-link-text);
+    border-radius: 10px;
+    border-color: #E5E7EB;
+    border: 2px solid var(--header-link-text);
+}
+
+.call-to-action {
+    font-size: 24px;
+    color: var(--header-link-text);
+    font-weight: bold;
+}
+
+.text-below {
+    color: var(--header-link-text);
+}
+
+
+
 
